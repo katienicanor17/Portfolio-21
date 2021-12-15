@@ -1,76 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-     <meta charset="utf-8"/>
-     <!--so it looks good in desktop and mobile-->
-     <meta name="robots" content="noindex,nofollow" />
-     <meta name="viewport" content="width=device-width" />
-     <title>Katie Nicanor</title>
+<head>
+    <meta charset="utf-8">
+    <!--so it looks good in desktop and mobile-->
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="viewport" content="width=device-width">
+    <title>Katie Nicanor</title>
 
-     <link rel="stylesheet" href="/css/style.css"/>
-     <!--fonts goes here-->
-     <script src="https://kit.fontawesome.com/324d9edadd.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Libre+Baskerville&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Libre+Baskerville&family=Roboto+Mono:wght@200&family=Source+Sans+3:wght@200&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/styles.css">
+    <!--fonts goes here-->
+    <script src="https://kit.fontawesome.com/324d9edadd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Libre+Baskerville&family=Roboto+Mono:wght@200&family=Source+Sans+3:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Libre+Baskerville&family=Roboto+Mono:wght@200&family=Source+Sans+3:wght@200&display=swap" rel="stylesheet">
 
-
-
- </head>
+</head>
 
  <body>
-     <header>
-         <div class="logo">
-             <img src ="/images/logo.jpeg" alt="Logo"> 
-             <p>hello</p>
-         </div>
-
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-
-            <nav class="nav">
-                <ul class="nav__list">
-                    <!--change these later-->
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
-                </ul>
-            </nav>
-     </header>
 
      <!--Introduction-->
 
      <!---these link to the ones above-->
      <section class="intro" id="home">
-         <h1 class="selection__title section__title--intro">
-             Hi, I am <strong>Katie Nicanor</strong>
+         <h1 class="section__title section__title--intro">
+             Hi, I am <strong>Katie Nicanor </strong> 
          </h1>
          <p class="section__subtitle section__subtitle--intro">Emerging Software Developer</p>
-         <img src="images/katie.jpg" alt="a picture of Katie Nicanor" class="intro__img"> 
+         <img src="images/port.jpg" alt="a picture of Katie Nicanor" class="intro__img"> 
+         <!--nav-->
      </section>
 
-
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#services" class="nav__link">My Services</a></li>
+                <li><a href="#about" class="nav__link">About Me</a></li>
+                <li><a href="#work" class="nav__link">My Work</a></li>
+                <li><a href="#video" class="nav__link">JavaScript Tutorial</a></li>
+            </ul>
+       </nav>
+     
+   
+     
      <!-- My services -->
      <section class="my-services" id="services">
          <h2 class="section__title section__title--services">My Experience</h2>
          <div class="services">
 
-                <div class="services">
+                <div class="service">
                     <h3>Education</h3>
                     <p>I have an associates in applied arts from Elgin Community College. I also went to University of Illinois at Chicago where I learned Python, C++, HTML,CSS and was introduced to SQL. </p>
                 </div> <!--services-->
 
-                <div class="services">
+                <div class="service">
                     <h3>Work Experience</h3>
                     <p>I have been working at Chipotle as a Service Manager. In every shift I manage 6-12 people to finish their tasks on time. I have also ensured customer satisfaction by implementing different organizational systems to help more customers quickly and accurately.</p>
                 </div> <!--services-->
 
-                <div class="services">
+                <div class="service">
                     <h3>Year Up</h3>
                     <p>In Year Up, I am working on my professional skills like excel, emails, business writing, providing feedback and public speaking. I also have been refining my coding skills in HTML,CSS, JavaScript and Unit Testing.</p>
                 </div> <!--services-->
@@ -89,43 +77,67 @@
                 <p>Katie Nicanor is an emerging Software Developer determined to keep learning and refining their skill set. Currently, Katie is a Service Manager at Chipotle and a Year Up student. Developing relationships and creating an inclusive space is the foundation in everything Katie does, both professionally and personally. Katie believes in communication and positive thinking in the workplace and is constantly communicating with her team and making sure her team is ready mentally ready for work. Katie enjoys relaxing with her family and friends, a good book, Netflix binge or a long walk outside listening to music. </p>
                 
             </div>
+            <img src="images/katie.jpg" alt="Picture of Katie Nicanor" class="about-me__img">
+            <div class="video__about-me">
 
-            <img src="images/zoom.jpeg" alt="Picture of Katie Nicanor" class="about-me__img">
+            <a href="video.html" class="btn"><div class="about_me_video">30 sec pitch</div></a>
+    
+
+               
      </section>
+     
      <!--My work-->
 
         <section class="my-work" id="work">
             <h2 class="section__title section__title--work">My Work</h2>
-            <p class="section__subtitle section__subtitle--work">A selection of my range of work </p>
+            <p class="section__subtitle section__subtitle--work">  </p>
 
             <div class="portfolio">
                 <!--Portfolio item 01-->
-                <a href="https://katienicanor17.github.io/stylin-with-css/" class="portfolio__item"> Styling With CSS
-                    <img src="/images/styling-with-css.jpeg" alt="" class="portfolio__img">
-                </a>
+                <a href="https://katienicanor17.github.io/stylin-with-css/" class="portfolio__item" target="_blank"><div class="portfolio__box">
+                    <p><h3>Styling with CSS</h3>Styling With CSS. In this project I was able to practice different stying tips in HTML/CSS</p>
+                </div></a>
                 <!--Portfolio item 02-->
-                <a href="https://katienicanor17.github.io/GitHub-Webpage-Group1-/" class="portfolio__item"> Avengers
-                    <img src="/images/avengers.jpeg" alt="" class="portfolio__img">
-                </a>
+                <a href="https://katienicanor17.github.io/GitHub-Webpage-Group1-/" class="portfolio__item"><div class="portfolio__box">
+                    <p><h3>GitHub-Webpage-Group1</h3>In this project, I worked with a group to create a webpage and practice our GitHub collaboration skills.</p>
+                </div></a>
                 <!--Portfolio item 03-->
-                <a href="https://katienicanor17.github.io/time-of-day/" class="portfolio__item">Time of Day
-                    <img src="/images/time-of-day.jpeg" alt="" class="portfolio__img">
-                </a>
+                <a href="https://katienicanor17.github.io/time-of-day/" class="portfolio__item"><div class="portfolio__box">
+                    <p><h3>Time of Day</h3>In this project, I was able to change the contents of the page depending on the time of the day </p>
+                </div></a>
                 <!--Portfolio item 04-->
-                <a href="https://katienicanor17.github.io/portal-fl21/index.html" class="portfolio__item">Portal
-                    <img src="/images/portal.jpeg" alt="" class="portfolio__img">
-                </a>
+                <a href="https://katienicanor17.github.io/portal-fl21/index.html" class="portfolio__item"><div class="portfolio__box">
+                    <p><h3>Portal</h3>In this project I was able to create a web site that hosted all of my projects</p>
+                </div></a>
                 <!--Portfolio item 05-->
-                <a href="https://katienicanor17.github.io/daily-grind/" class="portfolio__item">Daily Grind
-                    <img src="/images/daily-grind.jpeg" alt="" class="portfolio__img">
-                </a>
+                <a href="https://katienicanor17.github.io/daily-grind/" class="portfolio__item"><div class="portfolio__box">
+                    <p><h3>Daily Grind</h3>In this project I changed the contents and style of the webpage based on what day of the week it is</p>
+                </div></a>
                 <!--Portfolio item 05-->
-                <a href="https://katienicanor17.github.io/positioning/" class="portfolio__item">Positioning
-                    <img src="/images/positioning.jpeg" alt="" class="portfolio__img">
-                </a>
+                <a href="https://katienicanor17.github.io/positioning/" class="portfolio__item"><div class="portfolio__box">
+                    <p><h3>Positioning</h3>In this project I was able to practice positioning with HTML/CSS</p>
+                </div></a>
             </div>
         </section>
 
+
+
+
+
+          <!--Videos will go here-->
+     <section class="videos" id="video">
+        <h2 class="section__title section__title--videos">A Quick and Simple JavaScript Tutorial</h2>
+        <p class="section__subtitle section__subtitle--about"></p>
+
+        
+        <div>
+            <video class= "pitch-vid" id = "video" width="520" height="440" controls>
+                <source src="#" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+<!--Footer-->
         <footer class="footer">
             <a href="mailto:nicanorkatie17@gmail.com"class="footer__link">nicanorkatie17@gmail.com</a>
             <ul class="social-list">
@@ -138,14 +150,7 @@
                         <i class="fab fa-github"></i></a></li>
 
             </ul>
-               
-
         </footer>
-
-
-        <script src="/js/main.js"></script>
-
-
 
     </body>
 
